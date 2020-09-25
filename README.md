@@ -1,9 +1,9 @@
-###Clone the repo.
+### Clone the repo.
 ```
 git clone -b data_verification_tool https://github.com/Seagate/s3bench/
 ```
 
-###Build the code.
+### Build the code.
 go build (this gives binary file s3bench, run this binary as follows)
 
 Note: If go is not installed, follow below steps to install "go"
@@ -20,7 +20,7 @@ go version
 Expected output : go version go1.15.2 linux/amd64
 
 
-###To run the wrapper script.
+### To run the wrapper script.
 ```
 ./data_verify.sh -K <access_key> -S <access_secret> -b <bucketname> -w <workload_type> -i <no. of iterations> -s <no. of samples> -c <no. of clients>
 ```
