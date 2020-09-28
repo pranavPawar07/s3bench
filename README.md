@@ -4,7 +4,9 @@ git clone -b data_verification_tool https://github.com/Seagate/s3bench/
 ```
 
 ### Build the code.
-go build (this gives binary file s3bench, run this binary as follows)
+```
+go build
+```
 
 Note: If go is not installed, follow below steps to install "go"
 ```
