@@ -26,3 +26,20 @@ Expected output : go version go1.15.2 linux/amd64
 ```
 ./data_verify.sh -K <access_key> -S <access_secret> -b <bucketname> -w <workload_type> -i <no. of iterations> -s <no. of samples> -c <no. of clients>
 ```
+
+### Workload paramters
+```
+workload type:
+1) write_read_verify
+2) overwrite_verify
+3) parallel_write_read_verify
+4) write_delete_write_verify
+
+K : access key
+S : secret key
+b : bucketname
+w : workload type
+i : number of iterations 
+s : number of samples (number of objects)
+c : number of clients
+```
